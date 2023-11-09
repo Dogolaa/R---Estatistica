@@ -10,5 +10,3 @@ pap = 0.41 #proporcao na amostra piloto
 merrod = 0.02 #margem de erro desejada,deve sempre ser em DECIMAL
 alfa = 0.05 # nivel de significancia
 n_novo_pi = ((qnorm(alfa/2,lower.tail = FALSE) * (sqrt (pap*(1-pap))/merrod)))^2 ; n_novo_pi
-
-#teste
